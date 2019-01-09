@@ -8,5 +8,6 @@ def add_product(repfile,prod_id,project_id,tag,partnum,description,mult,quantity
     repfile.write("Multiplier%%" + mult + "\n")
     repfile.write("Quantity%%" + quantity + "\n")
     repfile.write("Price%%" + price + "\n")
+    repfile.write("</Products>\n")
 
 
